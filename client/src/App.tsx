@@ -20,7 +20,7 @@ import AllGallery from "./pages/AllGallery.js";
 
 require("dotenv").config();
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
       <Switch>
@@ -66,6 +66,6 @@ function App() {
       </Switch>
     </div>
   );
-}
+};
 
 export default App;
