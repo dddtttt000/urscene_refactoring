@@ -2,41 +2,43 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import MainFooter from "../components/MainFooter";
+import "./Landing.scss";
+import "../global.scss";
 
-function Landing() {
+const Landing: React.FC = () => {
   return (
-    <div>
+    <div id="landing-page">
       <div className="landing-main-logo"></div>
-      <center>
-        <div className="landing-main-container">
-          <div className="landing-main-img">
-            <div className="landing-main-text">
-              서로 다른 장면으로
-              <br></br>
-              공감하는 하나의 영화
-            </div>
-          </div>
-          <div className="landing-main-subt-1">
-            <span>잊을 수 없는, 강렬했던, 나만보기 아까운,</span>
+      {/* <center> */}
+      <div className="landing-main-container ">
+        <div className="landing-main-img margin-center">
+          <div className="landing-main-text center">
+            서로 다른 장면으로
             <br></br>
-            <span>영화 속 그 장면</span> <hr />
+            공감하는 하나의 영화
           </div>
-          <div className="landing-main-subt-2">
-            <span>바로 이곳에서 그 장면을</span>
-            <br></br>
-            <span>함께 나누고 소통해 보세요.</span>
-          </div>
-          <div className="landing-arrow"></div>
         </div>
-      </center>
+        <div className="landing-main-subt-1 center margin-center">
+          <span>잊을 수 없는, 강렬했던, 나만보기 아까운,</span>
+          <br></br>
+          <span>영화 속 그 장면</span> <hr />
+        </div>
+        <div className="landing-main-subt-2 center">
+          <span>바로 이곳에서 그 장면을</span>
+          <br></br>
+          <span>함께 나누고 소통해 보세요.</span>
+        </div>
+        <div className="landing-arrow margin-center"></div>
+      </div>
+      {/* </center> */}
 
       <div className="go-to-main-wrap">
         <Link className="link" to="/main">
           <span className="go-to-main">바로시작</span>
         </Link>
       </div>
-      <div className="landing-2-container">
-        <div className="landing-2-text-box">
+      <div className="landing-2-container ">
+        <div className="landing-2-text-box margin-center">
           <div className="landing-2-icon-1"></div>
           <div className="landing-2-text-title">
             공유하고 싶은 영화 속 장면을
@@ -49,10 +51,10 @@ function Landing() {
             생각을 공유해 보세요.
           </div>
         </div>
-        <div className="landing-2-img-1"></div>
+        <div className="landing-2-img-1 margin-center"></div>
       </div>
       <div className="landing-2-container">
-        <div className="landing-2-text-box">
+        <div className="landing-2-text-box margin-center">
           <div className="landing-2-icon-2"></div>
           <div className="landing-2-text-title">
             테마별로 영화 속 장면들을
@@ -65,10 +67,10 @@ function Landing() {
             개성넘치는 갤러리를 만들어 보세요.
           </div>
         </div>
-        <div className="landing-2-img-2"></div>
+        <div className="landing-2-img-2 margin-center"></div>
       </div>
       <div className="landing-2-container">
-        <div className="landing-2-text-box">
+        <div className="landing-2-text-box margin-center">
           <div className="landing-2-icon-3"></div>
           <div className="landing-2-text-title">
             갤러리, 개성이 넘치다 못해
@@ -81,25 +83,26 @@ function Landing() {
             인기 갤러리에 도전해 보세요.
           </div>
         </div>
-        <div className="landing-2-img-3"></div>
+        <div className="landing-2-img-3 margin-center"></div>
       </div>
-      <center>
-        <div className="landing-start-wrap">
-          <div className="start-box">
-            <div className="start-sub">영화 속 한 장면이 떠오르시나요?</div>
-            <div className="start-title">지금 바로 시작해 보세요!</div>
-            <Link className="link" to="/main">
-              <div className="start-btn">
-                <div className="start-btn-text">Get Started</div>
-                <div className="start-btn-arrow"></div>
-              </div>
-            </Link>
+
+      <div className="landing-start-wrap">
+        <div className="start-box margin-center ">
+          <div className="start-sub center">
+            영화 속 한 장면이 떠오르시나요?
           </div>
+          <div className="start-title center">지금 바로 시작해 보세요!</div>
+          <Link className="link" to="/main">
+            <div className="start-btn margin-center">
+              <div className="start-btn-text">Get Started</div>
+              <div className="start-btn-arrow"></div>
+            </div>
+          </Link>
         </div>
-      </center>
+      </div>
       <MainFooter />
     </div>
   );
-}
+};
 
 export default Landing;

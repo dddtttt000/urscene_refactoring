@@ -1,0 +1,96 @@
+.mF-container {
+  background: #0a142f;
+  margin: auto;
+  bottom: 0;
+}
+.mainFooter {
+  height: 224px;
+  border-top: 224px;
+  background: #0a142f;
+}
+
+.footer-wrap {
+  height: 78px;
+  width: auto;
+  text-align: left;
+  padding-top: 50px;
+  margin-left: 67px;
+}
+
+.mF-footer-logo-mo {
+  float: left;
+  width: 95px;
+  height: 19px;
+  margin-left: 36px;
+  margin-right: 36px;
+  margin-top: 14px;
+  background-color: #0059f7;
+  background: url("../img/NavLogo.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.mF-UI-about {
+  float: left;
+  width: 110px;
+  height: 54px;
+}
+
+.mF-UI-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.mF-UI-text {
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  font-weight: 900;
+  opacity: 0.7;
+  float: left;
+  margin-right: 24px;
+}
+
+.mF-contact {
+  position: absolute;
+  left: 194px;
+  width: 170px;
+  height: 90px;
+}
+
+.mF-contact-name {
+  float: left;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.contact-front {
+  width: auto;
+  height: 16px;
+}
+
+.contact-back {
+  margin-top: 12px;
+  width: auto;
+  height: 16px;
+}
+.mf-divider {
+  opacity: 0.15;
+  border: 1px solid #ffffff;
+  width: 300px;
+  margin: 70px auto 0;
+}
+
+.mF-footer2 {
+  font-size: 10px;
+  text-align: left;
+  color: #ffffff;
+  opacity: 0.75;
+  margin-top: 17px;
+}

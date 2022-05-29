@@ -1,7 +1,8 @@
 /*eslint-disable*/
-import "./App-mobile.css";
-import "./App-tablet.css";
-import "./App-pc.css";
+// import "./App-mobile.css";
+// import "./App-tablet.css";
+// import "./App-pc.css";
+import "./global.scss";
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import Login from "./pages/Login.js";
@@ -14,7 +15,7 @@ import Makepost from "./pages/Makepost.js";
 import Post from "./pages/Post.js";
 import Gallery from "./pages/Gallery.js";
 import Mygallery from "./pages/Mygallery.js";
-import Landing from "./pages/Landing.js";
+import Landing from "./pages/Landing";
 import AllScenes from "./pages/AllScenes.js";
 import AllGallery from "./pages/AllGallery.js";
 

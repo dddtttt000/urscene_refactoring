@@ -9,6 +9,7 @@ import Meg from "../img/UserImage-Meg.png";
 import Mili from "../img/UserImage-Mili.png";
 import Steven from "../img/UserImage-Steven.png";
 import axios from "axios";
+import "./Signup.scss";
 
 axios.defaults.withCredentials = true;
 

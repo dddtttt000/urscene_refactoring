@@ -6,6 +6,7 @@ import MainFooter from "../components/MainFooter";
 import TopButton from "../components/TopButton";
 import axios from "axios";
 import { MyContext } from "../contexts/Store";
+import "./Login.scss";
 axios.defaults.withCredentials = true;
 
 function Login() {
